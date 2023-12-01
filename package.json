@@ -1,0 +1,37 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest --inspect=4000",
+    "prepare": "husky install",
+    "day1": "ts-node ./src/01/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladshlianin/advent-of-code-2023.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladshlianin/advent-of-code-2023/issues"
+  },
+  "homepage": "https://github.com/vladshlianin/advent-of-code-2023#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.10",
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
