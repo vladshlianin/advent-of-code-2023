@@ -7,7 +7,8 @@
     "lint": "eslint src",
     "test": "jest --inspect=4000",
     "prepare": "husky install",
-    "day1": "ts-node ./src/01/index.ts"
+    "day1": "ts-node ./src/01/index.ts",
+    "day3": "ts-node ./src/03/index.ts"
   },
   "repository": {
     "type": "git",
