@@ -11,6 +11,12 @@
             "type": "node-terminal"
         },
         {
+            "command": "npm run day2",
+            "name": "Run npm day2",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "command": "npm run day3",
             "name": "Run npm day3",
             "request": "launch",
