@@ -15,6 +15,12 @@
             "name": "Run npm day3",
             "request": "launch",
             "type": "node-terminal"
+        },
+        {
+            "command": "npm run day4",
+            "name": "Run npm day4",
+            "request": "launch",
+            "type": "node-terminal"
         }
     ]
 }
